@@ -1,0 +1,115 @@
+
+*{ font-family: sans-serif;
+    box-sizing: border-box;}
+
+body { max-width: 1000px;
+        margin: auto;
+  }
+
+/*
+==============
+Header
+==============
+*/
+nav {margin:auto;}
+header h1{ background-color: #333;
+          color: white;
+            text-align: center;
+            font-size: 40px;
+            padding:10px;
+            margin: 0 auto;}
+
+header ul {list-style-type: none;
+            margin: 2px 0;
+            padding-left: 0;
+            text-align: center;
+
+
+}
+
+.topNav li { background-color: #d3d3d3;
+            display: inline-block;
+            padding:10px 4px;
+            font-size: 25px;
+            font-weight: bold;
+
+          }
+
+.topNav a{
+            text-decoration: none;
+            color: white;}
+
+/*
+===============
+Main
+================
+*/
+
+main h1{
+  background-color: #9efbd3;
+  font-weight: normal;
+  padding:10px;
+  text-align: left;
+
+}
+h1 strong{ font-weight: bold;
+            text-decoration: underline;
+            text-decoration-color: #fdd627;}
+/*
+==============
+PhotoBox/SECTION
+==================
+*/
+main {max-width: 920px;
+      text-align: center;
+      margin:auto;}
+.photoSection { maxwidth: 900px;
+                text-align: center;
+                margin: 10px 0}
+
+.photoBox {display: inline-block;
+            width: 33%;
+            margin:0;
+            padding-top: 10px;
+}
+.photoSection img {width:100%;
+                    }
+/*
+Photobox Footer
+*/
+
+.photoFooter {background-color: #fbd72b;
+margin:auto;
+              padding-top: 2px;
+              padding-bottom: 2px}
+
+.photoFooter ul{list-style-type: none;
+
+                 }
+
+.photoFooter li{ display:inline-block;
+                  margin:auto;
+
+                }
+.photoFooter li a{ color:blue;}
+
+.photoFooter li:first-child{ border-right: 2px solid black;
+                              padding-right:3px;}
+
+/*
+===============
+Footer
+===============
+*/
+
+ .bodyFooter { background-color: black;
+         padding:10px 0;
+         text-align: center;
+         line-height: 40px;
+
+  }
+footer small{
+
+          color: white;
+
+}
